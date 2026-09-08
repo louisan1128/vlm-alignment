@@ -1,1 +1,7 @@
-Add the compressed data archive URL here before publishing the repository.
+VLM Alignment v2 data archive
+
+Direct download:
+https://www.dropbox.com/scl/fi/uhk90uh6biwdtrep8895m/vlm_alignment_v2_data.tar.gz?rlkey=3j5rl9l6iit5wir8nkvygogmp&st=icqt4p22&dl=1
+
+SHA-256:
+13355dc8307bd571b78549e8b98f99a7ba7f231ad8b521008bdf465b97445b5f

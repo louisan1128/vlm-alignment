@@ -24,11 +24,34 @@ The SeG name and description are retained as metadata, but they are not shown
 to the VLM and are not used in the primary cosine score. This prevents an
 inconsistent or abstract SeG annotation from leaking the expected answer.
 
+## Results
+
+The frozen 20-motion evaluation, including per-motion descriptions, cosine
+scores, contact sheets, and source SOMA videos, is available in
+[`results/literal_only_20/REPORT.md`](results/literal_only_20/REPORT.md).
+
+- Mean cosine similarity: **0.8100**
+- Motions scoring at least 0.75: **17/20**
+- Vision model: `gpt-5.6-sol`
+- Embedding model: `text-embedding-3-large`
+
 ## Data
 
 The local `data/g1_pairs/` directory contains 542 complete pairs. See
 [`data/README.md`](data/README.md) for the required file layout. Bulk data is
-ignored by Git so it can be distributed as a separate archive link.
+ignored by Git and distributed as a
+[separate Dropbox archive](https://www.dropbox.com/scl/fi/uhk90uh6biwdtrep8895m/vlm_alignment_v2_data.tar.gz?rlkey=3j5rl9l6iit5wir8nkvygogmp&st=icqt4p22&dl=1).
+
+Download and extract it from the project root:
+
+```bash
+curl -L 'https://www.dropbox.com/scl/fi/uhk90uh6biwdtrep8895m/vlm_alignment_v2_data.tar.gz?rlkey=3j5rl9l6iit5wir8nkvygogmp&st=icqt4p22&dl=1' -o vlm_alignment_v2_data.tar.gz
+tar -xzf vlm_alignment_v2_data.tar.gz
+python scripts/validate_data.py
+```
+
+Expected SHA-256:
+`13355dc8307bd571b78549e8b98f99a7ba7f231ad8b521008bdf465b97445b5f`.
 
 ## Setup
 
