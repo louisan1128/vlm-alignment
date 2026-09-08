@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+outputs/
+*.tar.gz
+
+# The local copy is intentionally complete. Upload it separately as an archive
+# and put its URL in data/DATA_DOWNLOAD_URL.txt before publishing the repository.
+data/g1_pairs/
+data/SeG_list.xlsx
+data/*.pdf

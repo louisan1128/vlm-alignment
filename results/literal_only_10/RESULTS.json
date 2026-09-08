@@ -1,0 +1,202 @@
+[
+  {
+    "motion": "0060_BELLY_PREGNANT-1",
+    "soma_literal": "Right arm bends and lifts forward across the abdomen, hand turning thumb-up with fingers curled, pauses before the pelvis, then lowers once as the torso tilts right.",
+    "g1_literal": "The right arm bends once, lifting the forearm forward and diagonally across the torso to chest height, then lowers palm-up before straightening beside the hip.",
+    "literal_only_cosine": 0.7970358201454633,
+    "usage": {
+      "soma": {
+        "response_id": "resp_0fe54e7a420403ad006a9f94efc3ac87d0aa0232e709cbb38a",
+        "input_tokens": 12028,
+        "output_tokens": 565,
+        "total_tokens": 12593
+      },
+      "g1": {
+        "response_id": "resp_045574f0e3942c7f006a9f94fb775087d09d093a71c4035a2d",
+        "input_tokens": 12028,
+        "output_tokens": 828,
+        "total_tokens": 12856
+      }
+    }
+  },
+  {
+    "motion": "0097_EYE_TELESCOPE-3",
+    "soma_literal": "Both arms lift forward with elbows bent, bringing curved fingers together directly before the eyes, hold this position briefly, then lower apart toward the sides.",
+    "g1_literal": "Both arms lift forward from the sides, elbows bending as curved hands converge in front of and above the forehead, briefly hold, then lower.",
+    "literal_only_cosine": 0.8722985058513932,
+    "usage": {
+      "soma": {
+        "response_id": "resp_0e398f189b0bd0ff006a9f9509932487d0bd5ada70aa4458c4",
+        "input_tokens": 12028,
+        "output_tokens": 288,
+        "total_tokens": 12316
+      },
+      "g1": {
+        "response_id": "resp_0de10f6693353008006a9f951165ec87d0beb12bb7178dd4db",
+        "input_tokens": 12028,
+        "output_tokens": 291,
+        "total_tokens": 12319
+      }
+    }
+  },
+  {
+    "motion": "0104_FINGERS_AIR_QUOTES-1",
+    "soma_literal": "Both hands rise forward to face level with elbows bent, repeatedly flexing and extending the index and middle fingers while held apart.",
+    "g1_literal": "Both arms rise forward with elbows bent, holding hands in front of the face as the index and middle fingers repeatedly bend and straighten, then lower.",
+    "literal_only_cosine": 0.8865049424005803,
+    "usage": {
+      "soma": {
+        "response_id": "resp_09bb660428394c1b006a9f9518ef8087d0ae31685992aa0348",
+        "input_tokens": 12028,
+        "output_tokens": 293,
+        "total_tokens": 12321
+      },
+      "g1": {
+        "response_id": "resp_0df9f64e062d5cd4006a9f951febe487d0a8bf06fa0759ad6b",
+        "input_tokens": 12028,
+        "output_tokens": 596,
+        "total_tokens": 12624
+      }
+    }
+  },
+  {
+    "motion": "0107_FINGERS_BECKON-1",
+    "soma_literal": "Right arm lifts forward from the side to eye level, with elbow slightly bent, wrist flexed and fingers hanging downward, pauses, then lowers.",
+    "g1_literal": "The right arm lifts forward and bends, positioning a flexed wrist and downward-pointing fingers near the face, holds briefly, then lowers.",
+    "literal_only_cosine": 0.8114498506456798,
+    "usage": {
+      "soma": {
+        "response_id": "resp_027cb9ba6182d794006a9f952eac0087d0a05e1df3aa9b3f32",
+        "input_tokens": 12028,
+        "output_tokens": 197,
+        "total_tokens": 12225
+      },
+      "g1": {
+        "response_id": "resp_0553b0dea4e5b7e9006a9f9533fee887d08b3b1999a58ce563",
+        "input_tokens": 12028,
+        "output_tokens": 255,
+        "total_tokens": 12283
+      }
+    }
+  },
+  {
+    "motion": "0148_FIST_CLASP-2",
+    "soma_literal": "Both forearms lift forward to chest height; the right wrist bends downward with curved fingers above the partially closed left hand, then both lower.",
+    "g1_literal": "Both arms lift forward with elbows bent, forearms crossing before the upper chest; the right hand rises near the face as this pose is maintained.",
+    "literal_only_cosine": 0.8110228245393623,
+    "usage": {
+      "soma": {
+        "response_id": "resp_06db890721ee7df3006a9f953cbf7487d0b24894b03355fd86",
+        "input_tokens": 12028,
+        "output_tokens": 345,
+        "total_tokens": 12373
+      },
+      "g1": {
+        "response_id": "resp_0608f2649ab33508006a9f9543cabc87d086e3d3a2ff0409f0",
+        "input_tokens": 12028,
+        "output_tokens": 396,
+        "total_tokens": 12424
+      }
+    }
+  },
+  {
+    "motion": "0151_FIST_KNOCK-1",
+    "soma_literal": "Right arm bends upward and forward, bringing a closed fist near the shoulder, then extends forward as the hand opens and lowers.",
+    "g1_literal": "The right arm lifts forward with the elbow bent, bringing gathered fingertips near the face; the pose is held briefly before the fingers spread and arm lowers.",
+    "literal_only_cosine": 0.6757814208370312,
+    "usage": {
+      "soma": {
+        "response_id": "resp_03a8b396cfd4bc3b006a9f954c224087d0bef063276fec63e0",
+        "input_tokens": 12028,
+        "output_tokens": 262,
+        "total_tokens": 12290
+      },
+      "g1": {
+        "response_id": "resp_0a3ddab45aab6a16006a9f95527dc087d0ab5a153d20f9a06f",
+        "input_tokens": 12028,
+        "output_tokens": 841,
+        "total_tokens": 12869
+      }
+    }
+  },
+  {
+    "motion": "0316_HANDS_STEERING-1",
+    "soma_literal": "Both forearms lift forward to chest height with elbows bent, while the curled hands repeatedly alternate vertically, one hovering above the other.",
+    "g1_literal": "Both arms lift forward with bent elbows, while the separated hands repeatedly alternate vertically in front of the torso, then both arms lower.",
+    "literal_only_cosine": 0.8586553046447686,
+    "usage": {
+      "soma": {
+        "response_id": "resp_0e633d1b4fbe7a40006a9f9561b2cc87d0b7fcc5cf1aa253b1",
+        "input_tokens": 12028,
+        "output_tokens": 378,
+        "total_tokens": 12406
+      },
+      "g1": {
+        "response_id": "resp_0fee35c41acc1c04006a9f956de36887d09f888dfa2d8fe19b",
+        "input_tokens": 12028,
+        "output_tokens": 330,
+        "total_tokens": 12358
+      }
+    }
+  },
+  {
+    "motion": "0388_HAND_TOAST-1",
+    "soma_literal": "Right arm lifts forward from the side to shoulder height as the elbow straightens and fingers curl, briefly holds, then lowers again.",
+    "g1_literal": "The right arm bends and lifts forward from beside the hip to shoulder height, pauses with an open hand, then lowers.",
+    "literal_only_cosine": 0.8237474032498169,
+    "usage": {
+      "soma": {
+        "response_id": "resp_0a06545d3ca17ff3006a9f9577109887d0b2f78f1298fb4365",
+        "input_tokens": 12028,
+        "output_tokens": 301,
+        "total_tokens": 12329
+      },
+      "g1": {
+        "response_id": "resp_0a62eb8efc31183d006a9f957da9a487d0a944bcb712d5fd81",
+        "input_tokens": 12028,
+        "output_tokens": 311,
+        "total_tokens": 12339
+      }
+    }
+  },
+  {
+    "motion": "0417_HEAD_SCRATCH-1",
+    "soma_literal": "The right hand and forearm lift forward to rest against the right side of the head while the head tilts right and torso bends, hold, then lower.",
+    "g1_literal": "Right arm lifts with elbow bent until the hand is slightly forward of and beside the face, thumb and index forming a ring, holds, then lowers.",
+    "literal_only_cosine": 0.6524617674909512,
+    "usage": {
+      "soma": {
+        "response_id": "resp_086510b392d2b9c9006a9f9587b0f487d09967acf28145d964",
+        "input_tokens": 12028,
+        "output_tokens": 622,
+        "total_tokens": 12650
+      },
+      "g1": {
+        "response_id": "resp_063e55b4310cdea7006a9f95939aec87d088e1eb66b2ef82a3",
+        "input_tokens": 12028,
+        "output_tokens": 312,
+        "total_tokens": 12340
+      }
+    }
+  },
+  {
+    "motion": "0444_NOSE_TOUCH-1",
+    "soma_literal": "The right arm bends and lifts forward, holding a curled hand just before the mouth for several moments, then lowers.",
+    "g1_literal": "The right arm bends forward and upward, holding the hand close before the face as fingers shift from curled to partly extended, then lowers.",
+    "literal_only_cosine": 0.8534509221052331,
+    "usage": {
+      "soma": {
+        "response_id": "resp_01495dc541a4e239006a9f959c9c1887d0886ab75d4596f041",
+        "input_tokens": 12028,
+        "output_tokens": 162,
+        "total_tokens": 12190
+      },
+      "g1": {
+        "response_id": "resp_0deb43ba143a7b9a006a9f95a20a2887d09c95b437b1656c60",
+        "input_tokens": 12028,
+        "output_tokens": 281,
+        "total_tokens": 12309
+      }
+    }
+  }
+]
