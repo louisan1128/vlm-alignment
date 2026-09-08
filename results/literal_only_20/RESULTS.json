@@ -1,0 +1,479 @@
+{
+  "protocol": {
+    "source": "SeG BVH rendered as corrected SOMA mesh",
+    "target": "retargeted G1 front and side videos",
+    "sampling": "12 uniform action-window phases",
+    "prompt": "literal-only v1; no SeG label or description prior",
+    "vision_model": "gpt-5.6-sol",
+    "embedding_model": "text-embedding-3-large"
+  },
+  "selection": {
+    "seed": 20260908,
+    "population_size": 532,
+    "motions": [
+      "0014_ARMS_FOLD-2",
+      "0133_FINGERTIPS_KISS-3",
+      "0201_FOREFINGER_EMPTY-1",
+      "0202_FOREFINGER_EMPTY-2",
+      "0256_FOREHEAD_SALUTE-3",
+      "0263_FOREHEAD_WIPE-2",
+      "0367_HAND_PURSE-2",
+      "0368_HAND_PURSE_AROUND-1",
+      "0489_PALM_HALT-1"
+    ]
+  },
+  "summary": {
+    "count": 20,
+    "mean": 0.8099825602360206,
+    "minimum": 0.6524617674909512,
+    "maximum": 0.9210041587751885,
+    "original_10_mean": 0.804240876191028,
+    "random_9_mean": 0.8289572807563067,
+    "akimbo": 0.6966269160033698,
+    "at_least_0_75": 17,
+    "at_least_0_80": 12,
+    "at_least_0_85": 7
+  },
+  "results": [
+    {
+      "group": "original_10",
+      "motion": "0060_BELLY_PREGNANT-1",
+      "source_soma_literal": "Right arm bends and lifts forward across the abdomen, hand turning thumb-up with fingers curled, pauses before the pelvis, then lowers once as the torso tilts right.",
+      "g1_literal": "The right arm bends once, lifting the forearm forward and diagonally across the torso to chest height, then lowers palm-up before straightening beside the hip.",
+      "cosine_similarity": 0.7970358201454633,
+      "usage": {
+        "soma": {
+          "response_id": "resp_0fe54e7a420403ad006a9f94efc3ac87d0aa0232e709cbb38a",
+          "input_tokens": 12028,
+          "output_tokens": 565,
+          "total_tokens": 12593
+        },
+        "g1": {
+          "response_id": "resp_045574f0e3942c7f006a9f94fb775087d09d093a71c4035a2d",
+          "input_tokens": 12028,
+          "output_tokens": 828,
+          "total_tokens": 12856
+        }
+      }
+    },
+    {
+      "group": "original_10",
+      "motion": "0097_EYE_TELESCOPE-3",
+      "source_soma_literal": "Both arms lift forward with elbows bent, bringing curved fingers together directly before the eyes, hold this position briefly, then lower apart toward the sides.",
+      "g1_literal": "Both arms lift forward from the sides, elbows bending as curved hands converge in front of and above the forehead, briefly hold, then lower.",
+      "cosine_similarity": 0.8722985058513932,
+      "usage": {
+        "soma": {
+          "response_id": "resp_0e398f189b0bd0ff006a9f9509932487d0bd5ada70aa4458c4",
+          "input_tokens": 12028,
+          "output_tokens": 288,
+          "total_tokens": 12316
+        },
+        "g1": {
+          "response_id": "resp_0de10f6693353008006a9f951165ec87d0beb12bb7178dd4db",
+          "input_tokens": 12028,
+          "output_tokens": 291,
+          "total_tokens": 12319
+        }
+      }
+    },
+    {
+      "group": "original_10",
+      "motion": "0104_FINGERS_AIR_QUOTES-1",
+      "source_soma_literal": "Both hands rise forward to face level with elbows bent, repeatedly flexing and extending the index and middle fingers while held apart.",
+      "g1_literal": "Both arms rise forward with elbows bent, holding hands in front of the face as the index and middle fingers repeatedly bend and straighten, then lower.",
+      "cosine_similarity": 0.8865049424005803,
+      "usage": {
+        "soma": {
+          "response_id": "resp_09bb660428394c1b006a9f9518ef8087d0ae31685992aa0348",
+          "input_tokens": 12028,
+          "output_tokens": 293,
+          "total_tokens": 12321
+        },
+        "g1": {
+          "response_id": "resp_0df9f64e062d5cd4006a9f951febe487d0a8bf06fa0759ad6b",
+          "input_tokens": 12028,
+          "output_tokens": 596,
+          "total_tokens": 12624
+        }
+      }
+    },
+    {
+      "group": "original_10",
+      "motion": "0107_FINGERS_BECKON-1",
+      "source_soma_literal": "Right arm lifts forward from the side to eye level, with elbow slightly bent, wrist flexed and fingers hanging downward, pauses, then lowers.",
+      "g1_literal": "The right arm lifts forward and bends, positioning a flexed wrist and downward-pointing fingers near the face, holds briefly, then lowers.",
+      "cosine_similarity": 0.8114498506456798,
+      "usage": {
+        "soma": {
+          "response_id": "resp_027cb9ba6182d794006a9f952eac0087d0a05e1df3aa9b3f32",
+          "input_tokens": 12028,
+          "output_tokens": 197,
+          "total_tokens": 12225
+        },
+        "g1": {
+          "response_id": "resp_0553b0dea4e5b7e9006a9f9533fee887d08b3b1999a58ce563",
+          "input_tokens": 12028,
+          "output_tokens": 255,
+          "total_tokens": 12283
+        }
+      }
+    },
+    {
+      "group": "original_10",
+      "motion": "0148_FIST_CLASP-2",
+      "source_soma_literal": "Both forearms lift forward to chest height; the right wrist bends downward with curved fingers above the partially closed left hand, then both lower.",
+      "g1_literal": "Both arms lift forward with elbows bent, forearms crossing before the upper chest; the right hand rises near the face as this pose is maintained.",
+      "cosine_similarity": 0.8110228245393623,
+      "usage": {
+        "soma": {
+          "response_id": "resp_06db890721ee7df3006a9f953cbf7487d0b24894b03355fd86",
+          "input_tokens": 12028,
+          "output_tokens": 345,
+          "total_tokens": 12373
+        },
+        "g1": {
+          "response_id": "resp_0608f2649ab33508006a9f9543cabc87d086e3d3a2ff0409f0",
+          "input_tokens": 12028,
+          "output_tokens": 396,
+          "total_tokens": 12424
+        }
+      }
+    },
+    {
+      "group": "original_10",
+      "motion": "0151_FIST_KNOCK-1",
+      "source_soma_literal": "Right arm bends upward and forward, bringing a closed fist near the shoulder, then extends forward as the hand opens and lowers.",
+      "g1_literal": "The right arm lifts forward with the elbow bent, bringing gathered fingertips near the face; the pose is held briefly before the fingers spread and arm lowers.",
+      "cosine_similarity": 0.6757814208370312,
+      "usage": {
+        "soma": {
+          "response_id": "resp_03a8b396cfd4bc3b006a9f954c224087d0bef063276fec63e0",
+          "input_tokens": 12028,
+          "output_tokens": 262,
+          "total_tokens": 12290
+        },
+        "g1": {
+          "response_id": "resp_0a3ddab45aab6a16006a9f95527dc087d0ab5a153d20f9a06f",
+          "input_tokens": 12028,
+          "output_tokens": 841,
+          "total_tokens": 12869
+        }
+      }
+    },
+    {
+      "group": "original_10",
+      "motion": "0316_HANDS_STEERING-1",
+      "source_soma_literal": "Both forearms lift forward to chest height with elbows bent, while the curled hands repeatedly alternate vertically, one hovering above the other.",
+      "g1_literal": "Both arms lift forward with bent elbows, while the separated hands repeatedly alternate vertically in front of the torso, then both arms lower.",
+      "cosine_similarity": 0.8586553046447686,
+      "usage": {
+        "soma": {
+          "response_id": "resp_0e633d1b4fbe7a40006a9f9561b2cc87d0b7fcc5cf1aa253b1",
+          "input_tokens": 12028,
+          "output_tokens": 378,
+          "total_tokens": 12406
+        },
+        "g1": {
+          "response_id": "resp_0fee35c41acc1c04006a9f956de36887d09f888dfa2d8fe19b",
+          "input_tokens": 12028,
+          "output_tokens": 330,
+          "total_tokens": 12358
+        }
+      }
+    },
+    {
+      "group": "original_10",
+      "motion": "0388_HAND_TOAST-1",
+      "source_soma_literal": "Right arm lifts forward from the side to shoulder height as the elbow straightens and fingers curl, briefly holds, then lowers again.",
+      "g1_literal": "The right arm bends and lifts forward from beside the hip to shoulder height, pauses with an open hand, then lowers.",
+      "cosine_similarity": 0.8237474032498169,
+      "usage": {
+        "soma": {
+          "response_id": "resp_0a06545d3ca17ff3006a9f9577109887d0b2f78f1298fb4365",
+          "input_tokens": 12028,
+          "output_tokens": 301,
+          "total_tokens": 12329
+        },
+        "g1": {
+          "response_id": "resp_0a62eb8efc31183d006a9f957da9a487d0a944bcb712d5fd81",
+          "input_tokens": 12028,
+          "output_tokens": 311,
+          "total_tokens": 12339
+        }
+      }
+    },
+    {
+      "group": "original_10",
+      "motion": "0417_HEAD_SCRATCH-1",
+      "source_soma_literal": "The right hand and forearm lift forward to rest against the right side of the head while the head tilts right and torso bends, hold, then lower.",
+      "g1_literal": "Right arm lifts with elbow bent until the hand is slightly forward of and beside the face, thumb and index forming a ring, holds, then lowers.",
+      "cosine_similarity": 0.6524617674909512,
+      "usage": {
+        "soma": {
+          "response_id": "resp_086510b392d2b9c9006a9f9587b0f487d09967acf28145d964",
+          "input_tokens": 12028,
+          "output_tokens": 622,
+          "total_tokens": 12650
+        },
+        "g1": {
+          "response_id": "resp_063e55b4310cdea7006a9f95939aec87d088e1eb66b2ef82a3",
+          "input_tokens": 12028,
+          "output_tokens": 312,
+          "total_tokens": 12340
+        }
+      }
+    },
+    {
+      "group": "original_10",
+      "motion": "0444_NOSE_TOUCH-1",
+      "source_soma_literal": "The right arm bends and lifts forward, holding a curled hand just before the mouth for several moments, then lowers.",
+      "g1_literal": "The right arm bends forward and upward, holding the hand close before the face as fingers shift from curled to partly extended, then lowers.",
+      "cosine_similarity": 0.8534509221052331,
+      "usage": {
+        "soma": {
+          "response_id": "resp_01495dc541a4e239006a9f959c9c1887d0886ab75d4596f041",
+          "input_tokens": 12028,
+          "output_tokens": 162,
+          "total_tokens": 12190
+        },
+        "g1": {
+          "response_id": "resp_0deb43ba143a7b9a006a9f95a20a2887d09c95b437b1656c60",
+          "input_tokens": 12028,
+          "output_tokens": 281,
+          "total_tokens": 12309
+        }
+      }
+    },
+    {
+      "group": "akimbo",
+      "motion": "0001_ARMS_AKIMBO-1",
+      "source_soma_literal": "Both arms lift and bend forward until the splayed hands contact the waist, holding the elbows laterally while the head tilts left.",
+      "g1_literal": "Both arms bend simultaneously, bringing open hands forward and inward onto the upper hips with elbows flared outward, maintaining contact, then extending downward.",
+      "cosine_similarity": 0.6966269160033698,
+      "usage": {
+        "source_soma": {
+          "response_id": "resp_064b4fdf95adce49006a9fa0f1c2a487d086a7ded31f889252",
+          "status": "completed",
+          "input_tokens": 12028,
+          "output_tokens": 413,
+          "total_tokens": 12441
+        },
+        "g1": {
+          "response_id": "resp_03fa488df5effbae006a9fa0fba77887d0aa7f407b207f52a9",
+          "status": "completed",
+          "input_tokens": 12028,
+          "output_tokens": 255,
+          "total_tokens": 12283
+        }
+      }
+    },
+    {
+      "group": "random_9",
+      "motion": "0014_ARMS_FOLD-2",
+      "source_soma_literal": "Both arms lift forward, fold across the chest with forearms overlapping, and hold while the torso and head lean left and knees bend slightly.",
+      "g1_literal": "Both arms bend and lift forward until the forearms overlap across the chest, with one open palm upright, maintaining the pose before lowering.",
+      "cosine_similarity": 0.7986969871406324,
+      "usage": {
+        "source_soma": {
+          "response_id": "resp_09afca3a7363e096006a9fa45171f887d0b922c0d05f5859ec",
+          "status": "completed",
+          "input_tokens": 12028,
+          "output_tokens": 285,
+          "total_tokens": 12313
+        },
+        "g1": {
+          "response_id": "resp_0ff64d7c177ce169006a9fa45968e887d0ba831b18a9d61e1c",
+          "status": "completed",
+          "input_tokens": 12028,
+          "output_tokens": 559,
+          "total_tokens": 12587
+        }
+      }
+    },
+    {
+      "group": "random_9",
+      "motion": "0133_FINGERTIPS_KISS-3",
+      "source_soma_literal": "Left arm bends to lift the hand near the mouth with index finger extended, briefly holds, then reaches forward as the palm turns upward and fingers open.",
+      "g1_literal": "Left arm lifts forward, bends to hold the hand near the face with index and thumb extended, then straightens forward and lowers.",
+      "cosine_similarity": 0.8300562269576485,
+      "usage": {
+        "source_soma": {
+          "response_id": "resp_01c916e633240da0006a9fa46c4b0487d0974fc0a917062baf",
+          "status": "completed",
+          "input_tokens": 12028,
+          "output_tokens": 338,
+          "total_tokens": 12366
+        },
+        "g1": {
+          "response_id": "resp_0f3a919f0c2c31fc006a9fa476c0f487d099ad812ede962c27",
+          "status": "completed",
+          "input_tokens": 12028,
+          "output_tokens": 286,
+          "total_tokens": 12314
+        }
+      }
+    },
+    {
+      "group": "random_9",
+      "motion": "0201_FOREFINGER_EMPTY-1",
+      "source_soma_literal": "Left arm lifts forward from the side to above the head with elbow bent and fingers spread as the head tilts toward it, then lowers once.",
+      "g1_literal": "The left arm lifts forward and upward, bends to place the open palm close before the face, briefly holds, then lowers to the side.",
+      "cosine_similarity": 0.7844953966653123,
+      "usage": {
+        "source_soma": {
+          "response_id": "resp_061eab62d5149fb4006a9fa47eca9487d0803b473cb5810c05",
+          "status": "completed",
+          "input_tokens": 12028,
+          "output_tokens": 299,
+          "total_tokens": 12327
+        },
+        "g1": {
+          "response_id": "resp_040e2181853289d9006a9fa488123487d08f0ccda79e352051",
+          "status": "completed",
+          "input_tokens": 12028,
+          "output_tokens": 288,
+          "total_tokens": 12316
+        }
+      }
+    },
+    {
+      "group": "random_9",
+      "motion": "0202_FOREFINGER_EMPTY-2",
+      "source_soma_literal": "The left arm lifts forward to head height with elbow bent and fingers curved, while the right hand rises close beneath it, then both lower.",
+      "g1_literal": "The left arm lifts forward above head height with a curved open hand, then the right hand rises close beneath it, briefly holding before both lower.",
+      "cosine_similarity": 0.9210041587751885,
+      "usage": {
+        "source_soma": {
+          "response_id": "resp_028d1e0394c2dd77006a9fa48ffd6487d0851bb02bcd732917",
+          "status": "completed",
+          "input_tokens": 12028,
+          "output_tokens": 401,
+          "total_tokens": 12429
+        },
+        "g1": {
+          "response_id": "resp_09c3908d8a6dd607006a9fa49994b087d0bcba2596809bd91d",
+          "status": "completed",
+          "input_tokens": 12028,
+          "output_tokens": 336,
+          "total_tokens": 12364
+        }
+      }
+    },
+    {
+      "group": "random_9",
+      "motion": "0256_FOREHEAD_SALUTE-3",
+      "source_soma_literal": "The right arm lifts forward, bends at the elbow to position the open hand above and slightly forward of the forehead, holds, then lowers.",
+      "g1_literal": "The right arm lifts forward once from the side to above the head, remains bent overhead with an open curved hand, then lowers.",
+      "cosine_similarity": 0.824745502499866,
+      "usage": {
+        "source_soma": {
+          "response_id": "resp_09fcf37853fa3919006a9fa4a2ba7087d0a184fdb7b8e58ec2",
+          "status": "completed",
+          "input_tokens": 12028,
+          "output_tokens": 259,
+          "total_tokens": 12287
+        },
+        "g1": {
+          "response_id": "resp_0a351fedcec96144006a9fa4aa850c87d090933097bd2b803d",
+          "status": "completed",
+          "input_tokens": 12028,
+          "output_tokens": 184,
+          "total_tokens": 12212
+        }
+      }
+    },
+    {
+      "group": "random_9",
+      "motion": "0263_FOREHEAD_WIPE-2",
+      "source_soma_literal": "Left arm bends and lifts forward once, placing the spread hand against the forehead and eyes as the head tilts right, holds, then lowers.",
+      "g1_literal": "Left arm lifts forward with the elbow bent, holding an open, outward-facing hand near the head that oscillates side-to-side before lowering.",
+      "cosine_similarity": 0.7700858562487034,
+      "usage": {
+        "source_soma": {
+          "response_id": "resp_00b0eb8b7bba5b79006a9fa4b1c71487d083746963c403ffa1",
+          "status": "completed",
+          "input_tokens": 12028,
+          "output_tokens": 387,
+          "total_tokens": 12415
+        },
+        "g1": {
+          "response_id": "resp_0c80bc5aca3e62ee006a9fa4bad0a487d0aa6719da6976c5be",
+          "status": "completed",
+          "input_tokens": 12028,
+          "output_tokens": 279,
+          "total_tokens": 12307
+        }
+      }
+    },
+    {
+      "group": "random_9",
+      "motion": "0367_HAND_PURSE-2",
+      "source_soma_literal": "Left arm bends upward and forward, bringing the partially curled hand close to the mouth, holds there briefly, then lowers back beside the torso.",
+      "g1_literal": "Left arm bends and lifts forward until the open hand is held close before the forehead, then lowers back beside the torso.",
+      "cosine_similarity": 0.7732427890409365,
+      "usage": {
+        "source_soma": {
+          "response_id": "resp_0b3e022b6e3f1a56006a9fa4c355f087d09d469203a8c1b4be",
+          "status": "completed",
+          "input_tokens": 12028,
+          "output_tokens": 279,
+          "total_tokens": 12307
+        },
+        "g1": {
+          "response_id": "resp_0e672b096de9cc76006a9fa4caef2887d090365f21edf5f184",
+          "status": "completed",
+          "input_tokens": 12028,
+          "output_tokens": 331,
+          "total_tokens": 12359
+        }
+      }
+    },
+    {
+      "group": "random_9",
+      "motion": "0368_HAND_PURSE_AROUND-1",
+      "source_soma_literal": "Both arms lift forward with elbows bent as the open, spread-fingered hands rise from waist to chest level and turn toward each other.",
+      "g1_literal": "Both arms lift forward from the sides with elbows bent and open palms, briefly cross near the waist, then separate toward face level before lowering.",
+      "cosine_similarity": 0.8871838224860017,
+      "usage": {
+        "source_soma": {
+          "response_id": "resp_0f85d35e8e48bee5006a9fa4d65b8487d0abb838823952481b",
+          "status": "completed",
+          "input_tokens": 12028,
+          "output_tokens": 225,
+          "total_tokens": 12253
+        },
+        "g1": {
+          "response_id": "resp_0b400883612868c0006a9fa4dc65ac87d09ed03ce8e180d888",
+          "status": "completed",
+          "input_tokens": 12028,
+          "output_tokens": 271,
+          "total_tokens": 12299
+        }
+      }
+    },
+    {
+      "group": "random_9",
+      "motion": "0489_PALM_HALT-1",
+      "source_soma_literal": "The right arm lifts forward to shoulder height, extending with the palm facing outward and fingers spread, holds briefly, then lowers.",
+      "g1_literal": "The right arm lifts forward with elbow bent, raising an open, forward-facing palm to head height, holds briefly, then lowers to the side.",
+      "cosine_similarity": 0.8711047869924711,
+      "usage": {
+        "source_soma": {
+          "response_id": "resp_05241c844d4428ff006a9fa4e45c6887d0beea08d2351725ed",
+          "status": "completed",
+          "input_tokens": 12028,
+          "output_tokens": 196,
+          "total_tokens": 12224
+        },
+        "g1": {
+          "response_id": "resp_0802a2a7d79d427d006a9fa4e8fe0487d0b4b2aa950a218974",
+          "status": "completed",
+          "input_tokens": 12028,
+          "output_tokens": 307,
+          "total_tokens": 12335
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+You are creating a literal motion annotation from chronological synchronized
+front-and-side images of a humanoid motion. In every image, the left panel is
+the front view and the right panel is the side view at the same instant. All
+images belong to one action window.
+
+Describe only the physical motion directly supported by the complete sequence:
+
+1. Identify the active body part or parts and laterality when visible.
+2. Compare multiple phases and describe the defining change over time.
+3. Include the most diagnostic spatial relation, direction, coordination,
+   repetition, contact, hand configuration, or finger articulation.
+4. Distinguish a maintained pose, a single transition, and repeated movement.
+5. Use the side view to resolve depth and proximity.
+6. Do not name a conventional action, gesture, pantomime, intention, emotion,
+   communicative meaning, or imagined object.
+7. Do not infer contact or finger articulation that is not visibly supported.
+8. Omit generic preparation and return to rest unless they define the motion.
+
+Return exactly one English sentence of 15 to 30 words in the literal_motion
+field. Begin with the active body part or parts. Do not mention a person, robot,
+rendering, camera, images, frames, panels, views, dataset, evidence, uncertainty,
+or confidence.
