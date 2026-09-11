@@ -1,5 +1,8 @@
 # Agent Working Notes
 
+Read `HANDOFF.md` before making changes. It contains the current experiment
+state, selected data, decisions, and immediate next task.
+
 ## Scientific protocol
 
 - The primary score compares a source-BVH SOMA description with a G1 description.
