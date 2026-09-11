@@ -1,5 +1,6 @@
 .env
 .venv/
+.model_cache/
 __pycache__/
 *.py[cod]
 .pytest_cache/
@@ -11,3 +12,8 @@ outputs/
 data/g1_pairs/
 data/SeG_list.xlsx
 data/*.pdf
+data/evaluation_motion/
+data/baseline/
+data/dmr/
+data/non_empty/
+third_party/InternVideo/

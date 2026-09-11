@@ -24,3 +24,12 @@ included locally.
 
 Large data is excluded by `.gitignore`. Compress this directory, upload it to
 the chosen storage service, and record the URL in `DATA_DOWNLOAD_URL.txt`.
+
+## Compact cross-embodiment set
+
+`cross_embodiment_10/` is a small, Git-tracked input set for the current
+Source SOMA, Ours G1/Alex, and Baseline G1/Alex comparison. Each motion stores
+front and side videos for the four robot conditions; Source SOMA is read from
+the left panel of the Ours G1 comparison render. `manifest.json` stores the
+source-derived action-window phases, so preprocessing this set does not require
+the full `g1_pairs/` archive.

@@ -1,0 +1,21 @@
+You are observing chronological frames of one motion. When synchronized front and side views are provided, use both views to interpret the same movement.
+
+Describe the defining visible physical motion in exactly one concise English sentence. The caption will be compared across human and robot bodies with different appearances and proportions.
+
+Focus on the features that distinguish the motion:
+- active body part or parts;
+- main movement or held configuration;
+- target body region or body-relative position;
+- direction, repetition, or coordination when it defines the action;
+- hand or finger configuration only when it is clearly visible.
+
+Describe the main action directly. Mention preparation, raising, lowering, or returning only when essential for distinguishing the motion. For a held pose, describe the defining pose.
+
+Use body-relative language rather than absolute distances. Use performer-relative left and right only when reliable. Use concrete verbs supported by multiple frames. Describe rubbing, tapping, scratching, or other contact-specific interactions only when the visible movement supports that distinction; proximity alone does not establish contact.
+
+Do not infer an absent object, tool use, communicative intent, emotion, symbolic gesture meaning, or a dataset label. When ambiguous, state the visible motion rather than guessing an action name. Do not invent hidden contact or fine finger movement. Do not mention body type, rendering, colors, background, camera, frame numbers, text in the image, or uncertainty.
+
+Use consistent anatomical terms: "index finger", "little finger", "abdomen", "chest", and "head". Use "raise" for upward movement and "lower" for downward movement. Preserve distinctions between nearby body regions when visible.
+
+Start directly with the active body part, for example "Both hands" or "The right arm". Prefer 15-35 words without adding filler. Return only this JSON object:
+{"literal_motion":"..."}

@@ -35,6 +35,10 @@ scores, contact sheets, and source SOMA videos, is available in
 - Vision model: `gpt-5.6-sol`
 - Embedding model: `text-embedding-3-large`
 
+The consolidated protocol, experiment history, rejected pilots, and current
+five-way Ours/Baseline preparation are documented in
+[`docs/EXPERIMENT_REPORT.md`](docs/EXPERIMENT_REPORT.md).
+
 ## Data
 
 The local `data/g1_pairs/` directory contains 542 complete pairs. See
@@ -52,6 +56,10 @@ python scripts/validate_data.py
 
 Expected SHA-256:
 `13355dc8307bd571b78549e8b98f99a7ba7f231ad8b521008bdf465b97445b5f`.
+
+The repository also includes the compact `data/cross_embodiment_10/` set used
+to prepare the current Source SOMA, Ours G1/Alex, and Baseline G1/Alex
+comparison. It does not require the full 542-motion archive.
 
 ## Setup
 
@@ -104,6 +112,12 @@ Run a resumable batch:
 
 ```bash
 vlm-align batch --pattern '*FINGERS*' --limit 10
+```
+
+Prepare the current five-way comparison without API calls:
+
+```bash
+PYTHONPATH=src python scripts/prepare_cross_embodiment_10.py --force
 ```
 
 Render only a source BVH:

@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "description": "Curated front/side comparison renders for the frozen 10-motion cross-embodiment evaluation.",
+  "motions": [
+    {
+      "motion": "BELLY_RUB-3",
+      "pair_directory": "0062_BELLY_RUB-3",
+      "action_window": {"start_phase": 0.057778, "end_phase": 0.888889}
+    },
+    {
+      "motion": "EYES_RING-2",
+      "pair_directory": "0094_EYES_RING-2",
+      "action_window": {"start_phase": 0.076233, "end_phase": 0.964126}
+    },
+    {
+      "motion": "FINGERS_AIR_QUOTES-1",
+      "pair_directory": "0104_FINGERS_AIR_QUOTES-1",
+      "action_window": {"start_phase": 0.071770, "end_phase": 0.794258}
+    },
+    {
+      "motion": "FINGERS_BECKON-1",
+      "pair_directory": "0107_FINGERS_BECKON-1",
+      "action_window": {"start_phase": 0.047368, "end_phase": 0.894737}
+    },
+    {
+      "motion": "FIST_CLASP-2",
+      "pair_directory": "0148_FIST_CLASP-2",
+      "action_window": {"start_phase": 0.041958, "end_phase": 0.856643}
+    },
+    {
+      "motion": "FIST_KNOCK-1",
+      "pair_directory": "0151_FIST_KNOCK-1",
+      "action_window": {"start_phase": 0.070352, "end_phase": 0.793970}
+    },
+    {
+      "motion": "HANDS_STEERING-1",
+      "pair_directory": "0316_HANDS_STEERING-1",
+      "action_window": {"start_phase": 0.037975, "end_phase": 0.835443}
+    },
+    {
+      "motion": "HAND_TOAST-1",
+      "pair_directory": "0388_HAND_TOAST-1",
+      "action_window": {"start_phase": 0.021277, "end_phase": 0.819149}
+    },
+    {
+      "motion": "HEAD_SCRATCH-1",
+      "pair_directory": "0417_HEAD_SCRATCH-1",
+      "action_window": {"start_phase": 0.046832, "end_phase": 0.914601}
+    },
+    {
+      "motion": "NOSE_TOUCH-1",
+      "pair_directory": "0444_NOSE_TOUCH-1",
+      "action_window": {"start_phase": 0.014815, "end_phase": 0.900000}
+    }
+  ]
+}
